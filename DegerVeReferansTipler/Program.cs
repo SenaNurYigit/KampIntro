@@ -24,7 +24,7 @@ namespace DegerVeReferansTipler
             //int, decimal, float, double, bool --> değer tipli değişkenler
             //array,  class, interface --> referans tipli değişkenler
 
-            //Değer tipli değişkenler stackte tutuluyor. Referans tipli değişkenler ise heapte tutuluyor.
+            //Değer tipli değişkenler stackte tutuluyor. Referans tipli değişkenler ise heapte tutuluyor. 
         }
     }
 }
