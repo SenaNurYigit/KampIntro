@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
+    //Dictionary sınıfı eklendiği elemanları key ve value olarak kaydetmemize yarar. System.Collections. System.Collections.Generic kütüphanesini eklemezsek kullanamayız.
+    //Standart dizilere eklediğimiz elemanları değer(value), o elemanlara erişmek için kullandığımız indeksleri de anahtar(key) olarak düşünebiliriz.
+
     class MyDictionary<T>
     {
         T[] keys;
@@ -38,6 +41,5 @@ namespace GenericsIntro
             }
             values[values.Length - 1] = item;
         }
-
     }
 }
